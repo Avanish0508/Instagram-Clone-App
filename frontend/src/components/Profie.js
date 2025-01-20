@@ -31,7 +31,7 @@ export default function Profie() {
 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/user/${JSON.parse(localStorage.getItem("user"))._id}`, {
+    fetch(`https://ig-clone-back.vercel.app/user/${JSON.parse(localStorage.getItem("user"))._id}`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },
