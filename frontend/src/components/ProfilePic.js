@@ -23,7 +23,7 @@ export default function ProfilePic({ changeprofile }) {
 
   const postPic = () => {
     // saving post to mongodb
-    fetch("http://localhost:5000/uploadProfilePic", {
+    fetch("https://ig-clone-back.vercel.app/uploadProfilePic", {
       method: "put",
       headers: {
         "Content-Type": "application/json",
