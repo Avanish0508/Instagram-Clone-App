@@ -34,7 +34,7 @@ A full-stack Instagram clone built using the MERN (MongoDB, Express.js, React, N
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/instagram-clone.git
+   https://github.com/Avanish0508/Instagram-Clone-App.git
    ```
 
 2. Install backend dependencies
